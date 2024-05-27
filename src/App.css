@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo{
+  margin-right: 10px;
+}
+.btn1{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #4805c4; /* колір фону */
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1); /* тінь кнопки */
+  transition: background-color 0.3s ease; /* плавний перехід для зміни кольору */
+  
+}
+.btn4 {
+  background-color: #4CAF50; /* Зелений колір фону */
+  border: none; /* Відсутність рамки */
+  color: white; /* Білий колір тексту */
+  padding: 10px 20px; /* Відступи від тексту */
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-decoration: none; /* Відсутність підкреслення */
+  display: inline-block; /* Вирівнювання по горизонталі */
+  font-size: 16px; /* Розмір шрифту */
+  cursor: pointer; /* Змінна форми курсору при наведенні */
+  border-radius: 5px; /* Закругленість кутів */
+}
+
+.btn4:hover {
+  background-color: #45a049; /* Зелений колір при наведенні */
+}
+.btn2{
+  background-color: #3a3b3d; 
+  color: #fff;
+  border: none;
+  border-radius: 4px; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
