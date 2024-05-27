@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bloxfruit/static/css/main.ea19927e.css",
+    "main.js": "/bloxfruit/static/js/main.d0e66db5.js",
+    "static/js/453.0f4552a2.chunk.js": "/bloxfruit/static/js/453.0f4552a2.chunk.js",
+    "index.html": "/bloxfruit/index.html",
+    "main.ea19927e.css.map": "/bloxfruit/static/css/main.ea19927e.css.map",
+    "main.d0e66db5.js.map": "/bloxfruit/static/js/main.d0e66db5.js.map",
+    "453.0f4552a2.chunk.js.map": "/bloxfruit/static/js/453.0f4552a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea19927e.css",
+    "static/js/main.d0e66db5.js"
+  ]
+}
